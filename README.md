@@ -3,6 +3,10 @@
 SpeakMate AI is a browser-based English learning companion built for a real friend who is learning English.
 
 Instead of being a general-purpose chatbot, SpeakMate focuses on active English practice through AI-generated exercises.
+<img width="1920" height="1080" alt="Screenshot (111)" src="https://github.com/user-attachments/assets/513c79f2-04d6-457f-b658-39707a0769cf" />
+<img width="1920" height="1080" alt="Screenshot (110)" src="https://github.com/user-attachments/assets/14dd0450-cd2d-454e-9155-c0d09d015b3f" />
+<img width="1920" height="1080" alt="Screenshot (109)" src="https://github.com/user-attachments/assets/a953e608-441c-4f93-922a-7015cc05ff92" />
+
 
 ## ✨ Features
 
