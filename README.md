@@ -1,36 +1,92 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🤖 SpeakMate AI
 
-## Getting Started
+SpeakMate AI is a browser-based English learning companion built for a real friend who is learning English.
 
-First, run the development server:
+Instead of being a general-purpose chatbot, SpeakMate focuses on active English practice through AI-generated exercises.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 📝 Grammar Practice
+- Beginner, Intermediate, and Advanced levels
+- AI-generated grammar questions
+- Multiple-choice answers
+- Instant answer checking
+- Grammar explanations
+- Score tracking
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 📚 Vocabulary Practice
+- Learn new English words
+- Word meanings and examples
+- AI-generated vocabulary questions
+- Multiple-choice quizzes
+- Explanations and scoring
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### ✍️ Sentence Correction
+- Find mistakes in English sentences
+- Choose the grammatically correct sentence
+- AI-generated correction exercises
+- Explanations of grammar mistakes
+- Score tracking
 
-## Learn More
+## 🧠 AI
 
-To learn more about Next.js, take a look at the following resources:
+SpeakMate uses a local AI model in the browser.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The project uses:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Transformers.js
+- WebGPU
+- Qwen2.5-0.5B-Instruct
+- Next.js
+- TypeScript
+- Tailwind CSS
 
-## Deploy on Vercel
+The AI generates practice questions and explanations directly in the browser rather than relying on a paid cloud AI API.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🏗️ How It Works
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```text
+User
+  ↓
+Choose Practice Mode
+  ↓
+Choose Difficulty Level
+  ↓
+Local AI Model
+  ↓
+Generate Exercise
+  ↓
+Answer Question
+  ↓
+Check Answer
+  ↓
+Explanation + Score
+
+🎯 Why I Built SpeakMate
+
+I built SpeakMate AI for a real friend who is learning English.
+
+While learning, it can be difficult to find simple exercises that match your level and give immediate explanations.
+
+The goal of SpeakMate is to make English practice more interactive and accessible.
+
+Rather than building another general chatbot, I wanted to create a focused learning tool where AI is used for a specific purpose: generating personalized practice exercises.
+
+
+🌱 Open AI Approach
+
+One of the interesting parts of this project is that the AI runs locally in the browser using Transformers.js and WebGPU.
+
+This makes the project interesting for experimentation because the application can work with a local model instead of depending entirely on a paid hosted AI API.
+
+The model and AI pipeline can also be changed as the project evolves.
+
+
+🛠️ Tech Stack
+Technology=	Purpose
+Next.js=	Web application
+TypeScript=	Application development
+Tailwind CSS=	UI styling
+Transformers.js=	Running the AI model
+WebGPU=	Browser acceleration
+Qwen2.5=	Local language model
